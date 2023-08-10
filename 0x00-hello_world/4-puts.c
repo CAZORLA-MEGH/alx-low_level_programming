@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * main function
 * where the execution of program begins
 */

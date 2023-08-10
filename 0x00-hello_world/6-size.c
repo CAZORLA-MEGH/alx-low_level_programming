@@ -4,9 +4,8 @@
  * Return: always 0 its (success)
  *
 */
-
-{
 int main(void)
+{
 printf("size of a char: %c", sizeof(char));
 printf("size of an int: %d", sizeof(int));
 printf("size of a long int: %ld", sizeof(long int));

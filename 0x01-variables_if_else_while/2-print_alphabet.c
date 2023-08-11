@@ -5,16 +5,10 @@
 */
 int main(void)
 {
-for(char x =97; x >= 122; x++)
-if(x == 98)
+char ch;
+for(ch = 'a'; ch <= 'z' ; ch++)
 {
-continue;
-}
-if(x == 123)
-{
-break;
-}
-putchar("%c\n", x);
+putchar(ch);
 }
 return (0);
 }

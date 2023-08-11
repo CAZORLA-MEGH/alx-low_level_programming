@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - start point of the program
  * Return: always 0 its (success)

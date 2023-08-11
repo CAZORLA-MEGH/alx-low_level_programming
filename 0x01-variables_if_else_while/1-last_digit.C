@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - start point of the program
- * Return: always 0 its (success)
- */
+* main - start point of the program
+* Return: always 0 its (success)
+*/
 int main(void)
 {
 int n, digit;

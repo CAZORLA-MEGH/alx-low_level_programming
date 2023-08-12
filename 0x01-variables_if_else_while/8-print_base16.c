@@ -4,12 +4,14 @@
  * Return: always 0 its (success)
  */
 
-int main(void)
+#include <stdio.h>
+ int main(void)
 {
 int i;
 for (i = 1; i <= 15; i++)
 { printf("%x", i);
 }
 printf("\n");
+
 return 0;
 }

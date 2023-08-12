@@ -5,7 +5,7 @@
  */
 
 #include <stdio.h>
- int main(void)
+int main(void)
 {
 int i;
 for (i = 0; i <= 15; i++)
@@ -13,5 +13,5 @@ for (i = 0; i <= 15; i++)
 }
 printf("\n");
 
-return 0;
+return (0);
 }

@@ -2,8 +2,8 @@
 
 /**
  * main - start point of the program
- * reverse - C program to reverse a string using recursion
- * 'str' - the passed string
+ * reverse: C program to reverse a string using recursion
+ * str: the passed string
  * Return: always 0 its (success)
   */
 

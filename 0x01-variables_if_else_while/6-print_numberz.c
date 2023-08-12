@@ -3,11 +3,13 @@
  * main - start point of the program
  * Return: always 0 its (success)
  */
-int main (void)
+int main(void)
 {
-int i;
-for (i = 0; i <= 9; i++)
-{printf("%x", i);
+int x;
+for (x = 0; x <= 9; x++)
+{
+printf ("%d", x);
 }
+printf ("\n");
 return (0);
 }

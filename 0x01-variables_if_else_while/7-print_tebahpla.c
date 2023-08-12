@@ -2,9 +2,9 @@
 
 /**
  * main - start point of the program
+ * Reverse - Function to print reverse of
+ * Str - the passed string
  * Return: always 0 its (success)
- * Reverse: Function to print reverse of
- * Str: the passed string
   */
 
 void reverse(char *str)

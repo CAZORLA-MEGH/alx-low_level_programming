@@ -3,14 +3,17 @@
  * main - start point of the program
  * Return: always 0 its (success)
  */
-int main(void)
+int main (void)
 {
-int counter = 10;
-
-for (int num = 0; num < counter; num++)
-{
-putchar(num + '0')
-}
-putchar('\n')
+putchar('0');
+putchar('2');
+putchar('3');
+putchar('4');
+putchar('5');
+putchar('6');
+putchar('7');
+putchar('8');
+putchar('9');
+putchar('\n');
 return (0);
 }

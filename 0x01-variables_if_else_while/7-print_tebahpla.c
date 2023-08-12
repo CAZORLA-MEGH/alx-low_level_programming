@@ -3,7 +3,7 @@
 /**
  * main - start point of the program
  * reverse - Function to print reverse of
- * str - the passed string
+ * 'str' - the passed string
  * Return: always 0 its (success)
   */
 

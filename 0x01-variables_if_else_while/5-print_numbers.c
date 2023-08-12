@@ -5,18 +5,13 @@
  *    *    */
 int main(void)
 {
-for (int x  = 0; x <= 10; x++)
+int x;
+x = 0;
+while(x<10)
 {
-if (x == 1)
-{
-continue;
+printf("%d,x");
+x++;
 }
-if (x == 10)
-{
-break;
-}
-printf("%d", x);
-}
-return(0);
+return (0);
 }
 

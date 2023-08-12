@@ -2,8 +2,8 @@
 
 /**
  * main - start point of the program
- * Reverse - Function to print reverse of
- * Str - the passed string
+ * reverse - Function to print reverse of
+ * str - the passed string
  * Return: always 0 its (success)
   */
 

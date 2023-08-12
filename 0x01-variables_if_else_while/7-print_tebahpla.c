@@ -7,7 +7,7 @@
 int main(void)
 {
 char de = 'z';
-while(de >= 'a')
+while (de >= 'a')
 {
 putchar(de);
 de--;

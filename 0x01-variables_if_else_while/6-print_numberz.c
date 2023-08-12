@@ -5,15 +5,9 @@
  */
 int main (void)
 {
-putchar('0');
-putchar('2');
-putchar('3');
-putchar('4');
-putchar('5');
-putchar('6');
-putchar('7');
-putchar('8');
-putchar('9');
-putchar('\n');
+int i;
+for (i = 0; i <= 9; i++)
+{printf("%x", i);
+}
 return (0);
 }

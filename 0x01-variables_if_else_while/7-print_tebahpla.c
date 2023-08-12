@@ -10,7 +10,7 @@ char de = 'z';
 while(de >= 'a')
 {
 putchar(de);
-de--
+de--;
 }
 putchar('\n');
 return (0);

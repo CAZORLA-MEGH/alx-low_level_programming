@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-int x = 0
+int x = 0;
 do {
 printf("%d", x);
 x++;

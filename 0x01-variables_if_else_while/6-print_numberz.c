@@ -5,11 +5,12 @@
  */
 int main(void)
 {
-int x;
-for (x = 0; x <= 9; x++)
-{
-printf ("%d", x);
+int x = 0
+do {
+printf("%d", x);
+x++;
 }
+while(x <= 9);
 putchar('\n');
 return (0);
 }

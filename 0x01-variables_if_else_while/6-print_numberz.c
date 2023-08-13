@@ -5,12 +5,14 @@
  */
 int main(void)
 {
-int x = 0;
-do {
-printf("%d", x);
-x++;
+int digit = 0;
+
+while (digit <= 9)
+{
+
+putchar(digiti + '0');
+digit++;
 }
-while(x <= 9);
-putchar('\n');
+putchar("\n";
 return (0);
 }

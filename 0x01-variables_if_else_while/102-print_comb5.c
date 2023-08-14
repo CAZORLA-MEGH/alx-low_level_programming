@@ -21,7 +21,7 @@ putchar(j + '0');
 putchar(' ');
 putchar(z + '0');
 putchar(k + '0');
-putchar(' ');
+putchar(',');
 {
 putchar(' ');
 putchar(',');

@@ -8,9 +8,10 @@
 int main(void)
 
 {
-for (int x = 0; x <= 8; x++)
+int x, z;
+for ( x = 0; x <= 8; x++)
 {
-for (int z = x + 1; z <= 9; z++)
+for ( z = x + 1; z <= 9; z++)
 {
 putchar(x +'0');
 putchar(z +'0');

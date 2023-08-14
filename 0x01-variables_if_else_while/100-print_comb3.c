@@ -9,13 +9,13 @@ int main(void)
 
 {
 int x, z;
-for ( x = 0; x <= 8; x++)
+for( x = 0; x <= 8; x++)
 {
-for ( z = x + 1; z <= 9; z++)
+for( z = x + 1; z <= 9; z++)
 {
 putchar(x +'0');
 putchar(z +'0');
-if (x < 8)
+if(x < 8)
 {
 putchar(',');
 putchar(' ');

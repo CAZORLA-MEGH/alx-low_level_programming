@@ -21,14 +21,14 @@ putchar(j + '0');
 putchar(' ');
 putchar(z + '0');
 putchar(k + '0');
-putchar(',');
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 }
 }
 }
 }
+putchar('\n');
 return (0);
 }

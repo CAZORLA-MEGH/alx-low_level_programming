@@ -4,7 +4,6 @@
  * Return: always 0 its (success)
  */
 #include <stdio.h>
-#include <main.h>
 #include <unistd.h>
 
 /**

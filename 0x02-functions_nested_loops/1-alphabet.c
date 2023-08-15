@@ -1,22 +1,16 @@
 #include <stdio.h>
-
-int _putchar(char c) {
-	    return putchar(c);
+void print_alphabet(void)
+{
+int alpha;
+for(alpha = 'a'; alpha <= 'z'; alpha++)
+{_putchar(alpha);
+}
+}
+int main(void)
+{
+print_alphabet();
+return (0);
 }
 
-void print_alphabet(void) {
-	    char letter = 'a';
-
-	        while (letter <= 'z') {
-			        _putchar(letter);
-				        letter++;
-					    }
-		    _putchar('\n');
-}
-
-int main() {
-	    print_alphabet();
-	        return 0;
-}
 
 

@@ -6,7 +6,7 @@ for(alpha = 'a'; alpha <= 'z'; alpha++)
 {putchar(alpha);
 }
 }
-int main(void)
+int (void)
 {
 print_alphabet();
 return (0);

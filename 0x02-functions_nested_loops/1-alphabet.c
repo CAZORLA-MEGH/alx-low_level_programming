@@ -3,7 +3,7 @@ void print_alphabet(void)
 {
 int alpha;
 for(alpha = 'a'; alpha <= 'z'; alpha++)
-{_putchar(alpha);
+{putchar(alpha);
 }
 }
 int main(void)

@@ -6,7 +6,7 @@
  */
 
 #include <stdio.h>
-void printa_lphabet(void)
+void print_alphabet_x10(void)
 {
 int alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
@@ -15,7 +15,7 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 }
 int main(void)
 {
-printalphabet();
+print_alphabet_x10();
 return (0);
 }
 

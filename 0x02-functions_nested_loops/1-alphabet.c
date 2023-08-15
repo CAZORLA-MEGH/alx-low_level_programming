@@ -5,7 +5,7 @@
  * function Printalphabet - prints the alphabet a to z.
  */
 #include <stdio.h>
-void print_alphabet(void)
+void printalphabet(void)
 {
 int alpha;_
 for(alpha = 'a'; alpha <= 'z'; alpha++)
@@ -14,7 +14,7 @@ for(alpha = 'a'; alpha <= 'z'; alpha++)
 }
 int main(void)
 {
-print_alphabet();
+printalphabet();
 return (0);
 
 }

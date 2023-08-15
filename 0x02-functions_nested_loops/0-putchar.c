@@ -4,6 +4,7 @@
  * Return: always 0 its (success)
  */
 #include <stdio.h>
+#define main.h
 int main(void)
 {
 putchar('_');

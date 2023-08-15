@@ -5,16 +5,16 @@
  * function Printalphabet - prints the alphabet a to z.
  */
 #include <stdio.h>
-void printalphabet(void)
+void print_alphabet(void)
 {
-int alpha;
+int alpha;_
 for(alpha = 'a'; alpha <= 'z'; alpha++)
 {putchar(alpha);
 }
 }
 int main(void)
 {
-printalphabet();
+print_alphabet();
 return (0);
 
 }

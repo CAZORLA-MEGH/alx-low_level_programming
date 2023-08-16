@@ -6,19 +6,16 @@
 
 #include <stdio.h>
 #include "main.h"
-#include <unistd.h>
-#include <stdlib.h>
-#include <time.h>
 int print_last_digit(int x)
 
 {
-int digit;
-srand(time(0));
-x = rand() - RAND_MAX / 2;
-/* your code goes there */
-digit = (x % 10);
-
-return (digit);
+int lastdigit = x % 10;
+if (x < 0)
+x = x * -1;
+{
+_putchar(lastdigit);
+}
+return (lastdigit);
 
 }
 

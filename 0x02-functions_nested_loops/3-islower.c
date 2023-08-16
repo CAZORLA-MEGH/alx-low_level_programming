@@ -1,7 +1,7 @@
 /**
  * _islower -  checks for lowercase character.
  * Return:  1 if c >= a && c <= z or 0 otherwe
- * c- otherwise
+ * @x: int Number 
  */
 
 #include <stdio.h>

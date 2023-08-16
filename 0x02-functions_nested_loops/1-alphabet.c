@@ -1,16 +1,16 @@
+/**
+ * main - start point of the program
+ * Description :
+ * Return: always 0 its (success)
+ */
+
 #include <stdio.h>
-void print_alphabet()
+#include "main.h"
+#include <unistd.h>
+void print_alphabet(void)
 {
-int alpha;
-for(alpha = 'a'; alpha <= 'z'; alpha++)
-{putchar(alpha);
+char letter;
+for(letter= 'a'; letter <= 'z'; letter++)
+_putchar(letter);
+_putchar('\n');
 }
-}
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-
-
-

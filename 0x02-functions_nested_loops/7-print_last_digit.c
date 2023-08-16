@@ -11,13 +11,13 @@
 #include <time.h>
 int print_last_digit(int x, int digit)
 {
+
 srand(time(0));
 x = rand() - RAND_MAX / 2;
 /* your code goes there */
 digit = (x % 10);
 
-{
-_putchar(digit);
-}
+return (digit);
+
 }
 

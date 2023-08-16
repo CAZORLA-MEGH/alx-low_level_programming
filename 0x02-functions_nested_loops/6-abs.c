@@ -1,6 +1,5 @@
 /**
- * main - start point of the program
- * Description :
+ * int _abs -  computes the absolute value of an integer.
  * Return: always 0 its (success)
  */
 

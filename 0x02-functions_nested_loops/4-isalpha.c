@@ -1,7 +1,7 @@
 /**
- * main - start point of the program
- *
- * Return: always 0 its (success)
+ * _isalpha- checks for alphabetic character.
+ * int c- charachter
+ * Return: 1 if f c is a letter, lowercase or uppercase or 0 otherwise
  */
 #include <stdio.h>
 #include "main.h"

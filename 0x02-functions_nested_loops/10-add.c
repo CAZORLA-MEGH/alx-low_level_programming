@@ -8,6 +8,6 @@
 #include <unistd.h>
 int add(int x, int z)
 {
-return x + z;
+return (x + z);
 }
 

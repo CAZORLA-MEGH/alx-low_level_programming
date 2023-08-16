@@ -14,7 +14,8 @@ int j;
 
 for (letter = 'a'; letter <= 'z'; letter++)
 {
-	if( letter == 'z'){
+if (letter == 'z')
+{
 for (j = 1; j <= 26; j++)
 {
 

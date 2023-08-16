@@ -1,7 +1,7 @@
 /**
- * main - start point of the program
- * function print_alphabet -  prints the alphabet, in lowercase
- * Return: always 0 its (success)
+ * _islower -  checks for lowercase character.
+ * Return:  1 if c >= a && c <= z.
+ * Return:  0 if otherwise.
  */
 
 #include <stdio.h>

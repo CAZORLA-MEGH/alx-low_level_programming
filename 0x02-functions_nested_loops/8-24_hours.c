@@ -12,10 +12,10 @@ for (x = 0; x <= 23; x++)
 for (z = 0; z <= 59; z++)
 {
 putchar((x / 10) + '0');
-putchar((x / 10) + '0');
+putchar((x % 10) + '0');
 putchar(58);
 putchar((z / 10) + '0');
-putchar((z / 10) + '0');
+putchar((z % 10) + '0');
 putchar('\n');
 
 }

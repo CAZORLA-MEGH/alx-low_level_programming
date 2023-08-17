@@ -11,10 +11,12 @@ int z;
 {
 for (z = 0; z < n; z++)
 {
+putchar(' ');
 if (n > 0)
 putchar('_');
-}
-if (n < 0)
+if (n <= 0)
 putchar('\n');
 }
+}
+putchar('\n');
 }

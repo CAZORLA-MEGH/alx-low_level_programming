@@ -1,6 +1,6 @@
 /**
  * print_last_digit - prints the last digit of a number
- * 'x' - number
+ * @x : number
  * Return: always 0 its (success)
  */
 

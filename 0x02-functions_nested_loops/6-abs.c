@@ -1,5 +1,6 @@
 /**
- * int _abs -  computes the absolute value of an integer.
+ * _abs -  computes the absolute value of an integer.
+ * @n : number
  * Return: always 0 its (success)
  */
 

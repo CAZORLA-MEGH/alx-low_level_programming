@@ -1,6 +1,6 @@
 /**
  * print_line - draws a straight line in the terminal.
- * @a - number
+ * @n - number
  * @z -number
  * return
 */
@@ -11,7 +11,7 @@ int z;
 {
 for (z = 0; z < n; z++)
 {
-putchar(' ');
+
 if (n > 0)
 putchar('_');
 if (n <= 0)

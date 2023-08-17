@@ -1,7 +1,7 @@
 /**
  * _isupper - checks for uppercase character
  * @c: uppercase character
- * return: @c
+ * Return: c
 */
 #include <stdio.h>
 int _isupper(int c)

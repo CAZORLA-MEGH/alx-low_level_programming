@@ -1,6 +1,6 @@
 /**
- * main - start point of the program
- * Description :
+ * print_sign - print the sign of a number.
+ * @n : number
  * Return: always 0 its (success)
  */
 #include <stdio.h>

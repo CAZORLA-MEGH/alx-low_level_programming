@@ -1,3 +1,5 @@
+/**
+ * largest_number - prints the largest of three integers.
 #include "main.h"
 int largest_number(int a, int b, int c)
 {

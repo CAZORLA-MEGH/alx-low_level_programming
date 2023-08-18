@@ -18,6 +18,7 @@ putchar('\\');
 }
 if (n <= 0)
 putchar('\n');
+putchar(' ');
 }
 }
 putchar('\n');

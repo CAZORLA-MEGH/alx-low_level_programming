@@ -1,8 +1,7 @@
 /**
- * print_diagonal -
- * @n - number
- * @z -number
- * return
+ * print_diagonal - draws a diagonal line on the terminal.
+ * @n: number
+ * @z:number
 */
 #include<stdio.h>
 void print_diagonal(int n)

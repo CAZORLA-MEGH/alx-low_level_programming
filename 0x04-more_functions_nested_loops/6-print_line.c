@@ -13,7 +13,9 @@ for (z = 0; z < n; z++)
 {
 if (n > 0)
 putchar('_');
-if (n <= 0)
+if (z == n)
+putchar('\n');
+else (n <= 0)
 putchar('\n');
 }
 }

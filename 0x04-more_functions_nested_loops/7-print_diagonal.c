@@ -11,10 +11,16 @@ int z;
 {
 for (z = 0; z < n; z++)
 {
+if (n > 0)
+{
+putchar(' ');
+putchar('\n');
 putchar('\\');
+}
 if (n <= 0)
 putchar('\n');
 }
 }
 putchar('\n');
+putchar(' ');
 }

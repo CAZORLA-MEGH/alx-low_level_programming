@@ -1,7 +1,7 @@
 
 /**
- * _puts -  prints a string 
- * str : string
+ * _puts -  prints a string
+ * str: string
 */
 
 

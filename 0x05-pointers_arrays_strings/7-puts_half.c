@@ -1,5 +1,5 @@
 /**
- * puts2 -  prints half of a string, followed by a new line.
+ * puts_half -  prints half of a string, followed by a new line.
  * @length - strlen the str
  * @i - integer loop
  * @str: char string

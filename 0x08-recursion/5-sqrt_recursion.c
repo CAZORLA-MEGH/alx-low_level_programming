@@ -1,10 +1,13 @@
 #include<stdio.h>
-
+#include <math.h>
 int _sqrt_recursion(int n)
 
 {
-if (n!sqrt)
-return (-1);
-else
-return (n * _sqrt_recursion(n - 1);
-	}
+if (n != n*n )
+{
+	return (-1);
+}
+
+  
+  return 1;
+  }

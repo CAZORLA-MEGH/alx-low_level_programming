@@ -9,7 +9,8 @@
 
 int main(int argc, char *argv[])
 {
-if (argv[argc] != argv[0])
-printf("%i\n", argc);
+if (argv[0] >= argv[argc])
+{printf("%i\n", argc);
+}
 return (0);
 }

@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc *.c -o main
-gcc -c *.c
+gcc main.h -o main
+gcc -c main.h
 ar -rc libmy.a *.o
 

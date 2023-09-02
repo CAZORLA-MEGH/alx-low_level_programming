@@ -13,7 +13,7 @@ if (argv[argc] == argv[1])
 {
 printf("%i\n", 0);
 }
-else 
-printf("%i\n", argc-=1);
+else
+printf("%i\n", argc -= 1);
 return (0);
 }

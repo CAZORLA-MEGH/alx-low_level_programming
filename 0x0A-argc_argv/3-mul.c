@@ -8,7 +8,7 @@
  *Return: always 0
  */
 #include <stdio.h>
-
+#include <stdlib.h>
 int main(int argc, char *argv[])
 {
 if (argc != 3)
@@ -19,9 +19,9 @@ return (1);
 else
 {
 int x, y, multipl;
-x = argv[1][0] - '0';
-y = argv[2][0] - '0';
-multipl = x  *y;
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+multipl = x  * y;
 printf("%d\n", multipl);
 }
 return (0);

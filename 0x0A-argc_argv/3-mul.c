@@ -4,6 +4,7 @@
  *@argv :array of size argc
  *@x - num argv[1]
  *@y - num argv[2]
+ *@atoi - Convert the command-line arguments to integers
  *@multipl - multiplies x * y
  *Return: always 0
  */
@@ -21,7 +22,7 @@ else
 int x, y, multipl;
 x = atoi(argv[1]);
 y = atoi(argv[2]);
-multipl = x  * y;
+multipl = x  *y;
 printf("%d\n", multipl);
 }
 return (0);

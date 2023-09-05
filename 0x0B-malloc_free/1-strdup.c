@@ -22,7 +22,7 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-if (size == 0)
+if (ptr == 0)
 {
 printf("failed to allocate memory\n");
 }

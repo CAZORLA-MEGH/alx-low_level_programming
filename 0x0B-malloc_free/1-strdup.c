@@ -16,20 +16,24 @@
 char *_strdup(char *str)
 {
 int i;
-int size = strlen(str);
-char *ptr = strdup(str);
+int size = 0;
+char *ptr;
+
+while (str[size]!= '\0')
+{
+	size++;
+}
+ptr =(char *) malloc(size + 1);
+
 if (ptr == NULL)
 {
 return (NULL);
-}
-if (ptr == 0)
-{
-printf("failed to allocate memory\n");
 }
 
 for (i = 0; i < size; i++)
 {
 ptr[i] = str[i];
 }
+ptr[size] = '\0';
 return (ptr);
 }

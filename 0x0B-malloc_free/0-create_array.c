@@ -21,7 +21,6 @@ return (NULL);
 if (size == 0)
 {
 printf("failed to allocate memory\n");
-return (1);
 }
 for (i = 0; i < size; i++)
 {

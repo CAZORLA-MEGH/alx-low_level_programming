@@ -16,6 +16,7 @@ unsigned int i;
 char *array = malloc(size * sizeof(c));
 if (array == NULL)
 {
+printf("failed to allocate memory\n");
 return (NULL);
 }
 for (i = 0; i < size; i++)

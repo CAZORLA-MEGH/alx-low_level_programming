@@ -15,24 +15,25 @@
 
 char *_strdup(char *str)
 {
-int i;
+int i = 0;
 int size = 0;
 char *ptr;
 
-while (str[size]!= '\0')
+while (str[size] != '\0')
 {
 	size++;
 }
-ptr =(char *) malloc(size + 1);
+ptr = (char *) malloc(size + 1);
 
 if (ptr == NULL)
 {
 return (NULL);
 }
 
-for (i = 0; i < size; i++)
+while (str[i] != '\0')
 {
 ptr[i] = str[i];
+i++;
 }
 ptr[size] = '\0';
 return (ptr);

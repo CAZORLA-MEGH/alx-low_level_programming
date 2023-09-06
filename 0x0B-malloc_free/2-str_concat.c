@@ -12,7 +12,6 @@ if(s1 == NULL)
 {
 if (s2 == NULL)
 return NULL;
-return NULL;
 }
 
 s3 =(char *) malloc(len_s1 + len_s2+ 1);

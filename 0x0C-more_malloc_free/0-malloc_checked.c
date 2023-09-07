@@ -1,3 +1,10 @@
+/**
+ *malloc_checked -  allocates memory 
+ *@b : int 
+ *@ptr - pointer  
+ *return: return ptr
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"

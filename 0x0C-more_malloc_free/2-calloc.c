@@ -15,10 +15,11 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-ptr = (int *) malloc(size * sizeof(int));
+ptr = (int *) malloc(nmemb * sizeof(int));
 if (ptr == NULL)
 {
 return (NULL);
 }
+free(ptr);
 return (ptr);
 }

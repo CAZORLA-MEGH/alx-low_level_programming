@@ -20,6 +20,6 @@ if (ptr == NULL)
 {
 return (NULL);
 }
-free(ptr);
+memset(ptr, 0, nmemb * size);
 return (ptr);
 }

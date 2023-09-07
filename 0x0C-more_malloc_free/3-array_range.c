@@ -29,7 +29,7 @@ return (NULL);
 }
 for (i = 0; i <= max - min + 1; i++)
 {
-ptr[i] = i;
+ptr[i] = min +i;
 }
 return (ptr);
 }

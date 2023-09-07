@@ -15,7 +15,7 @@ if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
-ptr = (int *) malloc(nmemb * sizeof(int));
+ptr = (int *) malloc(nmemb * size);
 if (ptr == NULL)
 {
 return (NULL);

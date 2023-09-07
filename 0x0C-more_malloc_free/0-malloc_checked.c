@@ -1,8 +1,8 @@
 /**
- *malloc_checked -  allocates memory 
- *@b : int 
- *@ptr - pointer  
- *return: return ptr
+ *malloc_checked -  allocates memory
+ *@b : int
+ *@ptr - pointer
+ *Return: return ptr
  */
 
 #include <stdio.h>
@@ -12,7 +12,7 @@ void *malloc_checked(unsigned int b)
 
 {
 void *ptr;
-ptr = malloc (b);
+ptr = malloc(b);
 if (ptr == NULL)
 
 exit(98);

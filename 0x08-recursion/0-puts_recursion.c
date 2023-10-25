@@ -7,7 +7,6 @@
 
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.c"
 void _puts_recursion(char *s)
 {
 if (*s == '\0')

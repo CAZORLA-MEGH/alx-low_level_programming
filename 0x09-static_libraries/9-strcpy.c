@@ -1,8 +1,8 @@
 /**
- * *_strcpy - copies the string
- * @src 
- * @dest
- * 
+ * _strcpy - copies the string
+ * @src : string
+ * @dest : string
+ * Return: string
  */
 
 
@@ -15,8 +15,6 @@
 char *_strcpy(char *dest, char *src)
 {
 int LEN;
-	
-
 strcpy(src, dest);
 printf("%s", src);
 return (dest);

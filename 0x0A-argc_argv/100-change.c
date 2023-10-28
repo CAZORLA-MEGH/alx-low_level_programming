@@ -19,6 +19,7 @@ num = atoi(argv[1]);
 if (num < 0)
 {
 printf("0\n");
+return (0);
 }
 div = num / 25;
 remain = num % 25;

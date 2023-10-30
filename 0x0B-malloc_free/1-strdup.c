@@ -21,7 +21,7 @@ if (str == NULL)
 return (NULL);
 }
 s = (char *) malloc((lenght + 1) * sizeof(char));
-if(s == NULL)
+if (s == NULL)
 {
 printf("failed to allocate memory");
 return (NULL);

@@ -18,6 +18,7 @@ char *s;
 int lenght = strlen(str);
 if (str == NULL)
 {
+printf("failed to allocate memory");
 return (NULL);
 }
 s = (char *) malloc((lenght + 1) * sizeof(char));

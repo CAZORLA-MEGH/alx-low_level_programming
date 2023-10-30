@@ -21,7 +21,7 @@ int lenght_s1 = strlen(s1);
 int lenght_s2 = strlen(s2);
 int lenght_s3 =  lenght_s1 + lenght_s2;
 char *s3;
-s3 = (char *) malloc((lenght_s3 + 2) * sizeof(char));
+s3 = (char *) malloc((lenght_s3 + 1) * sizeof(char));
 if (s3 == NULL)
 {
 return (NULL);

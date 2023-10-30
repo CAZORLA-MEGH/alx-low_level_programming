@@ -33,13 +33,7 @@ for (i = 0; i < width; i++)
 {
 ptr[i] = (int *)malloc(height * sizeof(int));
 }
-for (i = 0; i < width; i++)
-{
-for (j = 0; j < height; j++)
-{
-ptr[i][j] = 0;
-}
-}
+
 if (ptr[i] == NULL)
 {
 for (j = 0; j < i; j++)
@@ -49,7 +43,13 @@ free(ptr[j]);
 free(ptr);
 return (NULL);
 }
-
+for (i = 0; i < width; i++)
+{
+for (j = 0; j < height; j++)
+{
+ptr[i][j] = 0;
+}
+}
 return (ptr);
 }
 

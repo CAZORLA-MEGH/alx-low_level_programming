@@ -20,6 +20,8 @@ if (size == 0)
 {
 return (NULL);
 }
+if (r == NULL)
+return (NULL);
 i = 0;
 while (i < size)
 {

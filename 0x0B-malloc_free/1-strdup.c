@@ -20,7 +20,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-s = (char *) malloc((lenght) * sizeof(char));
+s = (char *) malloc((lenght + 1) * sizeof(char));
 for (i = 0; str[i] != '\0'; i++)
 {
 s[i] = str[i];

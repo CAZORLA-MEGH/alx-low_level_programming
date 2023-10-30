@@ -23,7 +23,6 @@ return (NULL);
 s = (char *) malloc((lenght + 1) * sizeof(char));
 if (s == NULL)
 {
-printf("failed to allocate memory");
 return (NULL);
 }
 for (i = 0; str[i] != '\0'; i++)

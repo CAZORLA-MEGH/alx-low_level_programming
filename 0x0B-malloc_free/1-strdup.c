@@ -29,6 +29,6 @@ for (i = 0; i < lenght; i++)
 s[i] = str[i];
 }
 s[lenght] = '\0';
-free (s)
+free (s);
 return (s);
 }

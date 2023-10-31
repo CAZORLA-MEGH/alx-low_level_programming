@@ -17,7 +17,7 @@ int i;
 char *s;
 int lenght = strlen(str);
 if (str == NULL)
-return (NULL);
+{return (NULL);}
 s = (char *) malloc((lenght + 1) * sizeof(char));
 
 if (s == NULL)
@@ -29,6 +29,6 @@ for (i = 0; i < lenght; i++)
 s[i] = str[i];
 }
 s[lenght] = '\0';
-
+free (s)
 return (s);
 }

@@ -21,6 +21,11 @@ int lenght_s1 = strlen(s1);
 int lenght_s2 = strlen(s2);
 int lenght_s3 =  lenght_s1 + lenght_s2;
 char *s3;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+
 s3 = (char *) malloc((lenght_s3 + 1) * sizeof(char));
 if (s3 == NULL)
 {

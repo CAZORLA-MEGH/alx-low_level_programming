@@ -8,6 +8,8 @@
 */
 #include <stdio.h>
 #include <string.h>
+char *_strdup(char *str)
+
 {
 char *s;
 int i, lenght;

@@ -24,11 +24,11 @@ if (s == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < lenght; i++)
+for (i = 0; i <= lenght; i++)
 {
 s[i] = str[i];
 }
-s[lenght] = '\0';
-free (s);
+
+
 return (s);
 }

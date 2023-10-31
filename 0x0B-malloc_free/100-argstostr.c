@@ -26,7 +26,7 @@ for (i = 0; i < ac; i++)
 length += strlen(av[i]) + 1;
 }
 
-ptr = (char *) malloc(length *sizeof(char));
+ptr = (char *) malloc(length + 1);
 if (ptr != NULL)
 {
 for (i = 0; i < ac; i++)

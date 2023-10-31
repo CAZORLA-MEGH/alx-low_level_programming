@@ -28,7 +28,7 @@ return (NULL);
 }
 for (i = 0; i < height; i++)
 {
-ptr[i] = malloc (width * sizeof(int));
+ptr[i] = malloc(width * sizeof(int));
 if (ptr[i] == NULL)
 return (NULL);
 }
@@ -37,6 +37,7 @@ for (i = 0; i < height; i++)
 for (j = 0; j < width; j++)
 ptr[i][j] = 0;
 }
+
 return (ptr);
 }
 

@@ -28,6 +28,7 @@ for (i = 0; i < lenght; i++)
 {
 s[i] = str[i];
 }
+s[i] = '\0';
 
 return (s);
 }

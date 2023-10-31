@@ -7,31 +7,23 @@
 * Return: pointer *s.
 */
 #include <stdio.h>
-#include "main.h"
 #include <string.h>
-#include <stdlib.h>
-
-char *_strdup(char *str)
 {
-
-int i;
 char *s;
-int lenght = strlen(str);
+int i, lenght;
+lenght = strlen(str)
 if (str == NULL)
-{
 return (NULL);
-}
-s = (char *) malloc((lenght + 1) * sizeof(char));
+
+
+s = (char *)malloc(sizeof(char) * (lenght + 1));
 
 if (s == NULL)
-{
 return (NULL);
-}
-for (i = 0; i <= lenght; i++)
-{
-s[i] = str[i];
-}
-s[i] = '\0';
 
+for (i = 0; i <= lenght; i++)
+strout[i] = str[i];
 return (s);
+
+
 }

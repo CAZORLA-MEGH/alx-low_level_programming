@@ -1,5 +1,5 @@
 /**
- * malloc_checked - 
+ * malloc_checked - that allocates memory using malloc
  *@b : number of byte
  *Return: pointer to the allocated memory
  */
@@ -8,7 +8,7 @@
 void *malloc_checked(unsigned int b)
 {
 void *ptr = malloc(b);
-if(ptr == 0)
+if (ptr == 0)
 exit(98);
-return ptr;
+return (ptr);
 }

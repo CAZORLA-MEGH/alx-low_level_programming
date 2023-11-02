@@ -15,6 +15,10 @@ unsigned int i, j;
 unsigned int size_s1 = 0;
 unsigned int size_s2 = 0;
 char *s3;
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 while (s1 && s1[size_s1])
 size_s1++;
 while (s2 && s2[size_s2])

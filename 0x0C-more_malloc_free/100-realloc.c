@@ -20,6 +20,8 @@ if (ptr == NULL)
 new_ptr = malloc(new_size);
 return (new_ptr);
 }
+if (new_size == old_size)
+return (ptr);
 if (new_size == 0 && ptr != NULL)
 {
 free(ptr);

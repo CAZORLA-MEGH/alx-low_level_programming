@@ -3,7 +3,7 @@
 * Return: int
 */
 #include <stdio.h>
-int main()
+int main(void)
 {
 printf("%s\n", __FILE__);
 

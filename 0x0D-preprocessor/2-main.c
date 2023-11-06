@@ -1,13 +1,11 @@
 /**
-* main - The primary function in the C program.
-* @argc:  number of command-line arguments
- * @argv: array of string
+* main - main function
 * Return: int
 */
 #include <stdio.h>
-int main(int argc, char *argv[])
+int main()
 {
-argc = 0;
-printf("%s\n", argv[argc]);
+printf("%s\n", __FILE__);
+
 return (0);
 }

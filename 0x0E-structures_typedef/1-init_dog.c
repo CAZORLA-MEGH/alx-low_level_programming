@@ -5,6 +5,7 @@
  *@age : variable float
  *@owner : variable string
  */
+#include <stdlib.h>
 #include <stdio.h>
 #include "dog.h"
 void init_dog(struct dog *d, char *name, float age, char *owner)

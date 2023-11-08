@@ -38,10 +38,7 @@ if ((operator == '/' || operator == '%') && argv[2] == 0)
 printf("Error\n");
 exit(100);
 }
-if(operator != '+' && operator != '-' && operator != '*' && operator != '/' && operator != '%')
-{
-return (0);
-}
+
 result = operation(num1, num2);
 
 printf("%d\n", result);

@@ -20,8 +20,6 @@ return (-1);
 }
 for (i = 0; i < size; i++)
 {
-if (!cmp(array[i])
-return (-1)
 if (cmp(array[i]))
 {
 return (i);

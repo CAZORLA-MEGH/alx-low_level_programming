@@ -8,7 +8,7 @@
 */
 #include <stdio.h>
 #include <string.h>
-#include "main.h"
+#include "function_pointers.h"
 
 int int_index(int *array, int size, int (*cmp)(int))
 {

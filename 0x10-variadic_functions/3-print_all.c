@@ -16,7 +16,7 @@ char *st, *seperator;
 va_list argPtr;
 va_start(argPtr, format);
 seperator = "";
-if 
+
 while (format && format[i])
 {
 switch (format[i])

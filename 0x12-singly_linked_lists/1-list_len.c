@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *print_list - prints all the elements of a list_t list.
+ *list_len - returns the number of elements in a linked list_t list.
  *@h : pointer to list.
  *Return: number of elements in h.
  */
@@ -13,6 +13,6 @@ while (h)
 h = h->next;
 num_elements++;
 }
-return num_elements;
+return (num_elements);
 }
 

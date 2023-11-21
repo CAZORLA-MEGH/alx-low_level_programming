@@ -1,6 +1,6 @@
 /**
  *add_nodeint -  adds a new node at the beginning of a linked list.
- *@head : pointer to pointer to the list_t list.
+ *@head : pointer to pointer to the listint_t.
  *@n : data to insert in that new node
  *Return: the address of the new element, or NULL if it failed
  */

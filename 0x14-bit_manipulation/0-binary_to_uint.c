@@ -8,16 +8,15 @@ unsigned int binary_to_uint(const char *b)
 {
 int i;
 unsigned int dec = 0;
+
 if (!b)
-{
 return (0);
-}
+
 for (i = 0; b[i]; i++)
 {
-if (b[i] != '0' && b[i] != '1')
+if (b[i] < '0' || b[i] > '1')
 return (0);
-dec = (dec << 1) + (b[i] - 48);
+dec = 2 * dec + (b[i] - '0');
 }
-printf("decimal = %u\n", dec);
 return (dec);
 }

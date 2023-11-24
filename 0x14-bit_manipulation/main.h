@@ -13,5 +13,6 @@ int clear_bit(unsigned long int *n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 unsigned int number_of_bits(unsigned long int result);
+int get_endianness(void);
 
 #endif /* MAIN_H */

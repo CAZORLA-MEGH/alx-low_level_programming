@@ -10,27 +10,18 @@ ssize_t read_textfile(const char *filename, size_t letters)
 size_t i = 0, sz = 0;
 int fd = 0;
 char *c;
-size_t bytes_written;
 c = (char *) malloc (letters * sizeof(char));
 if (c == NULL)
 {
 return (0);
 }
 fd = open(filename, O_RDONLY);
-if (fd < 0 || filename == NULL)
+if (fd == -1 || filename == NULL)
 {
 return (0);
 }
 sz = read(fd, c, letters);
 c[sz] = '\0';
-bytes_written = write(STDOUT_FILENO, c, sz);
-if (bytes_written != sz)
-{
-free(c);
-close(fd);
-return 0;
-}
-
 for (i = 0; i < sz; i++)
 {
 putchar(c[i]);

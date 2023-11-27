@@ -21,6 +21,8 @@ if (fd == -1 || filename == NULL)
 return (0);
 }
 sz = read(fd, c, letters);
+if (sz == -1)
+return (0);
 c[sz] = '\0';
 for (i = 0; i < sz; i++)
 {

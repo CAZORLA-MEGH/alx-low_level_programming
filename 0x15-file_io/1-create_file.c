@@ -23,7 +23,8 @@ wr = write(fd, text_content, i);
 if (wr == -1)
 return (-1);
 }
-
+if (close(fd) == -1)
+return (-1);
 close(fd);
 return (1);
 }

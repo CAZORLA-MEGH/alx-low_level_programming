@@ -21,7 +21,7 @@ for (i = 0; text_content[i] != '\0'; i++)
 {
 }
 wr = write(fd, text_content, i);
-if (|| wr != i)
+if (wr != i)
 return (-1);
 }
 

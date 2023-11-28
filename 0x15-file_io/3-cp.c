@@ -26,14 +26,14 @@ if (file2 == 1)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 }
-while ((size = read(file1, buf, 1024)) > 0)
+while ((sz = read(file1, buf, 1024)) > 0)
 {
-if (write(file2, buf, size) != size)
+if (write(file2, buf, sz) != sz)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 }
 }
-if (size == -1)
+if (sz == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);

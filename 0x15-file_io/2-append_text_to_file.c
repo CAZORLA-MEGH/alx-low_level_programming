@@ -20,7 +20,7 @@ if (fd == -1)
 return (-1);
 for (i = 0; text_content[i] != '\0'; i++)
 append = write(fd, &text_content, i);
-if (append != i)
+if (append == -1 || append != i)
 {
 close(fd);
 return (-1);

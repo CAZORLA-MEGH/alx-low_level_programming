@@ -13,7 +13,7 @@ if (filename == NULL)
 return (-1);
 for (i = 0; text_content[i] != '\0'; i++)
 fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 600);
-if (text_contnt)
+if (text_content)
 {
 wr = write(fd, text_content, i);
 if (wr == -1)

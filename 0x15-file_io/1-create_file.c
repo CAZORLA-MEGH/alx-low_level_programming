@@ -11,20 +11,20 @@ int wr = 0, i = 0;
 int fd;
 if (filename == NULL)
 return (-1);
-for (i = 0; text_content[i] != '\0'; i++)
 fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 600);
-if (fd == -1)
-{
+if (fd < 0)
 return (-1);
-}
+
 if (text_content)
 {
+for (i = 0; text_content[i] != '\0'; i++)
+{
+}
 wr = write(fd, text_content, i);
-if (wr == -1)
+if (wr == -1 || wr != i)
 return (-1);
 }
-if (close(fd) == -1)
-return (-1);
+
 close(fd);
 return (1);
 }

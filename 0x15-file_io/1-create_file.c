@@ -12,13 +12,15 @@ int fd;
 if (filename == NULL)
 return (-1);
 if (text_content != NULL)
-for (i = 0; text_content[i] != '\0'; i++)
+{
+for (i = 0; text_content[i];)
+i++;
+}
+
 fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 600);
 wr = write(fd, text_content, i);
-if (wr != i || wr == -1 || fd == -1)
+if (wr == -1 || fd == -1)
 return (-1);
-
-
 close(fd);
 return (1);
 }

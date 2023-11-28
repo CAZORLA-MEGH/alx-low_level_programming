@@ -16,20 +16,20 @@ int fd, append, i;
 if (filename == NULL)
 return (-1);
 fd = open(filename, O_WRONLY | O_EXCL | O_APPEND);
-if (file < 0)
+if (fd < 0)
 return (-1);
 
 if (text_content)
 {
 for (i = 0; text_content[i] != '\0'; i++)
-append = write(file, text_content, i);
+append = write(fd, text_content, i);
 if (append < 0)
 {
-close(file);
+close(fd);
 return (-1);
 }
 }
-close(file);
+close(fd);
 return (1);
 }
 

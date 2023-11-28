@@ -11,19 +11,13 @@ int wr = 0, i = 0;
 int fd;
 if (filename == NULL)
 return (-1);
+if (text_content != NULL)
+for (i = 0; text_content[i] != '\0'; i++)
 fd = open(filename, O_RDWR | O_CREAT | O_TRUNC, 600);
-if (fd < 0)
+wr = write(fd, text_content, i);
+if (wr != i || wr == -1 || fd == -1)
 return (-1);
 
-if (text_content)
-{
-for (i = 0; text_content[i] != '\0'; i++)
-{
-}
-wr = write(fd, text_content, i);
-if (wr != i)
-return (-1);
-}
 
 close(fd);
 return (1);

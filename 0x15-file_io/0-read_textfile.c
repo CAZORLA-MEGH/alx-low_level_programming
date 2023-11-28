@@ -22,7 +22,7 @@ sz = read(fd, c, letters);
 wr = write(STDOUT_FILENO, c, sz);
 if (fd == -1 || sz == -1 || wr == -1 || wr != sz)
 {
-free (c);
+free(c);
 return (0);
 }
 free(c);

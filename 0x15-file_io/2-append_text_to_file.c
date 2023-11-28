@@ -23,7 +23,7 @@ if (text_content)
 {
 for (i = 0; text_content[i] != '\0'; i++)
 append = write(fd, text_content, i);
-if (append < 0)
+if (append < 0 || append != i)
 {
 close(fd);
 return (-1);

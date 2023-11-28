@@ -21,8 +21,12 @@ if (text_content != NULL)
 for (i = 0; text_content[i];)
 i++;
 }
+
 fd = open(filename, O_WRONLY  | O_APPEND);
+if (text_content)
+{
 append = write(fd, text_content, i);
+}
 if (fd == -1 || append == -1 || append != i)
 {
 

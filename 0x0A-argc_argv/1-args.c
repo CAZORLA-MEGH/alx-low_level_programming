@@ -1,6 +1,6 @@
 /**
 * main - The primary function in the C program.
-* @argc: @argc: number of command-line arguments
+* @argc:  number of command-line arguments
  * @argv: array of strings
 * Return: number of line commande
 */
